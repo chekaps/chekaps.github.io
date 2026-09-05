@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Moussa Kapiamba | Portfolio</title>
+  <title>Moussa Mukendi Kapiamba | Hardware & Computer Engineering Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,14 +11,25 @@
   <!-- HEADER -->
   <header>
     <div class="container">
-      <h1>Moussa Kapiamba</h1>
-      <p>Computer Engineering Student | Texas A&M University | Digital Design, Computer architecture and Embedded Systems</p>
+      <h1>Moussa Mukendi</h1>
+      <p>
+        Computer Engineering Student | Texas A&M University |
+        Digital Design, RTL, Hardware Verification, Computer Architecture
+      </p>
+
       <nav>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="#featured">Featured Projects</a>
+        <a href="#earlier">Earlier Projects</a>
         <a href="#videos">Videos</a>
         <a href="#contact">Contact</a>
       </nav>
+
+      <div class="hero-links">
+        <a href="https://github.com/chekaps" target="_blank">View GitHub</a>
+        <a href="https://github.com/chekaps/Digital-Logic-verilog" target="_blank">Digital Logic Repository</a>
+        <a href="https://www.linkedin.com/in/moussa-kapiamba" target="_blank">LinkedIn</a>
+      </div>
     </div>
   </header>
 
@@ -26,74 +37,179 @@
   <section id="about" class="section">
     <div class="container">
       <h2>About Me</h2>
+
       <p>
-        I am an Honor Student in Computer Engineering at Texas A&M University, enrolled in the prestigious Chevron Engineering Program. I am passionate about 
-        Digital Ddesign, Computer architecture, FPGA systems, and embedded Systems.  
-        I have completed several Arduino and AI-based projects, including 
-        an Industrial Robotic Arm, automatic parking barrier, a weather station, an alarm system, 
-        and the development of my intelligent Assistants.
-        My long term goal is tobecome a hardware Systemes Engineer and contribute to the design of the next-generation computing systems.<b>Sabr</b>.
+        I am a Computer Engineering student at Texas A&M University with a strong
+        interest in digital hardware, RTL design, hardware verification, computer
+        architecture, and advanced computing systems.
+      </p>
+
+      <p>
+        Before beginning my formal digital design coursework, I independently started
+        learning digital logic and Verilog and built projects such as adders and an
+        8-bit ALU. That early preparation helped me develop hands-on experience with
+        testbenches, simulation, waveform analysis, and digital hardware debugging.
+      </p>
+
+      <p>
+        My broader engineering experience also includes Python, NVIDIA Jetson hardware,
+        Arduino-based projects, robotics, and hardware/software integration. My goal is
+        to continue growing as a hardware engineer and contribute to the development of
+        next-generation computing systems.
+      </p>
+
+      <p>
+        Explore my code and repositories directly on
+        <a href="https://github.com/chekaps" target="_blank">GitHub</a>.
       </p>
     </div>
   </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
+  <!-- FEATURED PROJECTS -->
+  <section id="featured" class="section">
     <div class="container">
-      <h2>Projects</h2>
+      <h2>Featured Projects</h2>
+
+      <div class="project-card">
+        <h3>8-bit Arithmetic Logic Unit (ALU) — Verilog</h3>
+        <p>
+          Designed and simulated an 8-bit combinational ALU supporting
+          ADD, SUB, AND, OR, and XOR operations using a 3-bit selection signal.
+          Developed a Verilog testbench and analyzed simulation waveforms to verify
+          logic behavior.
+        </p>
+        <p><strong>Tools:</strong> Verilog, Icarus Verilog, GTKWave</p>
+        <a href="https://github.com/chekaps/Digital-Logic-verilog" target="_blank">
+          View Repository
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Digital Logic Design & Verification</h3>
+        <p>
+          Designed and simulated digital circuits including half-adders and full-adders
+          in Verilog. Developed testbenches and analyzed waveforms to verify expected
+          outputs across different input combinations.
+        </p>
+        <p><strong>Tools:</strong> Verilog, Testbench Development, GTKWave</p>
+        <a href="https://github.com/chekaps/Digital-Logic-verilog" target="_blank">
+          View Digital Logic Projects
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Luna AI Companion — NVIDIA Jetson Orin Nano</h3>
+        <p>
+          Built a real-time AI companion using Python, audio processing, and AI APIs.
+          Integrated microphone, speaker, and NVIDIA Jetson hardware into a functional
+          prototype while working through hardware/software integration challenges.
+        </p>
+        <p><strong>Tools:</strong> Python, NVIDIA Jetson Orin Nano, AI APIs</p>
+        <a href="https://github.com/chekaps/Luna-Ai-Companion" target="_blank">
+          View Repository
+        </a>
+      </div>
+
+      <div class="project-card">
+        <h3>Industrial Robotic Arm</h3>
+        <p>
+          Built and programmed an Arduino-based robotic arm prototype, working with
+          hardware control, programmed movement, and troubleshooting system behavior.
+        </p>
+        <p><strong>Focus:</strong> Robotics, Arduino, Hardware Control</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EARLIER PROJECTS -->
+  <section id="earlier" class="section">
+    <div class="container">
+      <h2>Earlier Engineering Projects</h2>
+
+      <p>
+        These projects were part of my earlier hands-on engineering experience and
+        helped build my foundation in sensors, hardware integration, programming,
+        and problem-solving.
+      </p>
+
       <ul>
-        <li>🤖 Industrial Robotic Arm</li>
-        <li>📡 Weather Station (Arduino)</li>
-        <li>🔔 Security Alarm System with Proximity Detection</li>
-        <li>🚦 Automatic Parking Barrier with Ultrasonic Sensor</li>
-        <li>🧠 Multilingual AI Medical Robot <b>Sabr</b> (Capstone Project)</li>
+        <li>Weather Station — Arduino</li>
+        <li>Security Alarm System with Proximity Detection</li>
+        <li>Automatic Parking Barrier with Ultrasonic Sensor</li>
+        <li>Multilingual AI Medical Robot — Sabr</li>
       </ul>
     </div>
   </section>
 
   <!-- VIDEOS -->
-<section id="videos" class="section">
+  <section id="videos" class="section">
     <div class="container">
-        <h2>Project Videos</h2>
-        
-        <!-- Vidéo 1 - Industrial Robotic Arm -->
-        <h3>Industrial Robotic Arm</h3>
-        <iframe width="600" height="400" 
-            src="https://www.youtube.com/embed/G8j9IaSEakQ" 
-            frameborder="0" allowfullscreen>
-        </iframe>
-        
-        <!-- Vidéo 2 - Security Alarm System -->
-        <h3>Security Alarm System with Proximity Detection</h3>
-        <iframe width="600" height="400" 
-            src="https://www.youtube.com/embed/P63QKcFowr0" 
-            frameborder="0" allowfullscreen>
-        </iframe>
-        
-        <!-- Vidéo 3 - Weather Station -->
-        <h3>Weather Station (Arduino)</h3>
-        <iframe width="600" height="400" 
-            src="https://www.youtube.com/embed/mIyJDLwzA7Q" 
-            frameborder="0" allowfullscreen>
-        </iframe>
-        
+      <h2>Project Videos</h2>
+
+      <h3>Industrial Robotic Arm</h3>
+      <iframe
+        width="600"
+        height="400"
+        src="https://www.youtube.com/embed/G8j9IaSEakQ"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+
+      <h3>Security Alarm System with Proximity Detection</h3>
+      <iframe
+        width="600"
+        height="400"
+        src="https://www.youtube.com/embed/P63QKcFowr0"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+
+      <h3>Weather Station — Arduino</h3>
+      <iframe
+        width="600"
+        height="400"
+        src="https://www.youtube.com/embed/mIyJDLwzA7Q"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
     </div>
-</section>
+  </section>
 
   <!-- CONTACT -->
   <section id="contact" class="section">
     <div class="container">
       <h2>Contact</h2>
+
       <p>Email: <a href="mailto:moussa@tamu.edu">moussa@tamu.edu</a></p>
       <p>Phone: 945-273-4787</p>
-      <p>GitHub: <a href="https://github.com/chekaps" target="_blank">github.com/chekaps</a></p>
-<p>LinkedIn: <a href="https://www.linkedin.com/in/moussa-kapiamba" target="_blank">linkedin.com/in/moussa-kapiamba</a></p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/chekaps" target="_blank">
+          github.com/chekaps
+        </a>
+      </p>
+
+      <p>
+        Digital Logic Repository:
+        <a href="https://github.com/chekaps/Digital-Logic-verilog" target="_blank">
+          github.com/chekaps/Digital-Logic-verilog
+        </a>
+      </p>
+
+      <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/moussa-kapiamba" target="_blank">
+          linkedin.com/in/moussa-kapiamba
+        </a>
+      </p>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>&copy; 2025 Moussa Kapiamba. All rights reserved.</p>
+    <p>&copy; 2026 Moussa Kapiamba. All rights reserved.</p>
   </footer>
 
 </body>
